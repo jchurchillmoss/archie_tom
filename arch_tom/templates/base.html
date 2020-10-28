@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Reenie+Beanie&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+  <body>
+
+    <nav class='navbar sticky-top'>
+      <div class="links">
+        <ul class="nav-links top-nav">
+          <li>
+            <a href="{% url 'arch_tom:index' %}">home</a>
+          </li>
+          <li>
+              <a href="{% url 'arch_tom:gigs' %}">gigs</a>
+          </li>
+        </ul>
+      </div>
+      <div class="links2">
+        <ul class="nav-links top-nav">
+          <li>
+            <a href="{% url 'arch_tom:epk' %}">epk</a>
+          </li>
+          <li>
+              <a href="{% url 'arch_tom:watchlisten' %}">watch</a>
+          </li>
+        </ul>
+      </div>
+      <div class="logo">
+        <a href="{% url 'arch_tom:index' %}"><img class='logo' src="{% static "base/logo.png" %}" alt=""></a>
+      </div>
+      <div class="socials">
+        <li class='nav-item'>
+          <a id='social' class='nav-link' href="https://www.instagram.com/tommoore_archiemoss/"><img src="{% static "base/ig.png" %}"></a>
+          <a id='social' class='nav-link' href="https://www.facebook.com/mooreandmoss/"><img src="{% static "base/fb.png" %}"></a>
+          <a id='social' class='nav-link' href="https://duomooremoss.bandcamp.com/album/spectres"><img src="{% static "base/bc.png" %}"></a>
+          <a id='social' class='nav-link' href="https://www.youtube.com/channel/UCt-RAM9CpJX8d-_MgZqREDA"><img src="{% static "base/yt.png" %}"></a>
+        </li>
+      </div>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+
+    <script src="{% static "js/js_base.js" %}"></script>
+
+
+    {% block body_block %}
+
+    {% endblock %}
+
+    <div class="bottom_banner container">
+      <div class="fluid-container topRow">
+        <div class="row">
+          <div id='formtext' class="col-lg-12">
+            Tom Moore & Archie Moss<br>
+            Bristol & London, UK <br>
+            lagunabookings@gmail.com <br>
+            <br>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% load static %}
+{% block body_block %}
+
+<div class="container">
+  <p class='text'><strong>Upcoming Gigs</strong></p>
+  {% for date in dates %}
+  <p class='text'>{{ date.day }} {{date.month}} {{date.year}} - <span>{{date.venue}}</span> - {{date.town}}  </p>
+  <p class='ticket'><a href="{{date.ticket}}">Buy Ticket</a></p>
+  {% endfor %}
+</div>
+
+<script src="{% static "js/js_gigs.js" %}"></script>
+
+{% endblock %}

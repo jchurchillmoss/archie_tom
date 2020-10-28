@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% load static %}
+{% block body_block %}
+<div class="container">
+  <div class="row">
+    <div class="col pictures">
+      <img style = 'opacity:0' src="{% static "index/arch_tom_1.jpg" %}" alt="" class='cover cover1'>
+      <img style = 'opacity:0' src="{% static "index/arch_tom_2.jpg" %}" alt="" class='cover cover2'>
+      <img style = 'opacity:0' src="{% static "index/arch_tom_3.jpg" %}" alt="" class='cover cover3'>
+      <img style = 'opacity:0' src="{% static "index/arch_tom_4.jpg" %}" alt="" class='cover cover4'>
+      <img style = 'opacity:0' src="{% static "index/arch_tom_5.jpg" %}" alt="" class='cover cover5'>
+      <img style = 'opacity:0' src="{% static "index/arch_tom_6.jpg" %}" alt="" class='cover cover6'>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col all_text">
+      <p class='text'>Widely regarded as two of the best players and innovators in traditional folk amongst a precociously gifted generation, Moore & Moss’ finely-crafted arrangements wield a rare potency. Now, having toured with with some of the biggest and brightest acts in the British folk scene, they reconvene to perform as duo. </p>
+      <p class='text'>Their second record (released 2020) is set to further unite the deep and resolute harmony of Moss’s accordion with the texture and flow of Moore’s viola; with droning, whirring, sparkling layers of electro-acoustic grit provoking a subtle complexity of palette. Whilst intrinsically borrowing from English and other European traditional dance form, sonically Moore and Moss have their heads firmly in the present, understanding the values of contemporary music and art making.
+      The distinct pulse and intuition of trad-music haunts their playing as they continue to quietly reconsider English instrumental music, listening and responding to the world around them as much as their musical ancestors.
+      </p>
+    </div>
+  </div>
+</div>
+
+<script src="{% static "js/js_index.js" %}"></script>
+
+{% endblock %}

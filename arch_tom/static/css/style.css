@@ -1,0 +1,419 @@
+
+/* NAVBAR */
+nav {
+  display: block;
+  background-color: white;
+  justify-content: space-around !important;
+  align-items: center !important;
+  height: 350px;
+  position: absolute;
+
+}
+
+.links{
+  position:absolute;
+  width: 33%;
+  left: 0%;
+  background: rgb(0,0,0,0);
+  top:0px;
+  height: 100%;
+}
+
+.links2{
+  position:absolute;
+  width: 33%;
+  right: 0%;
+  background: rgb(0,0,0,0);
+  top:0px;
+  height: 100%;
+}
+
+.socials{
+  position:absolute;
+  width: 100%;
+  top:250px;
+  background: rgb(0,0,0,0);
+  list-style: none;
+  text-align:center;
+}
+
+.socials img{
+  height: 60px;
+}
+.nav-links{
+  display: flex !important;
+  width: 100%;
+  justify-content: space-around !important;
+  margin: auto;
+  height: 250px;
+  z-index: -1;
+  padding: 0;
+  }
+
+.nav-links li{
+  list-style: none;
+  text-align: center !important;
+  padding: 0px;
+  vertical-align: middle;
+  max-width: 50%;
+  min-width: 50%;
+}
+
+.logo {
+  width: 500px !important;
+  text-align: center !important;
+  margin: auto;
+  position: absolute;
+  top: 0px;
+  left: center;
+  transform: translate(-23%, 0%);
+  z-index: -2;
+}
+
+.nav-links a{
+  float: center;
+  font-family: 'Homemade Apple', cursive;
+  text-shadow: 2px 2px #FFFFFF;
+  font-size: 4em;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 3px;
+  text-align: center !important;
+}
+
+.nav-links a:hover{
+  color:#6a040f;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+#social{
+  display: inline;
+}
+
+#bar2 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 3em;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  display: inline;
+  border: 20px;
+
+}
+
+.video {
+  padding-top: 100px;
+}
+
+.text{
+  padding-top: 50px;
+  font-family: 'Special Elite', cursive;
+  text-align: justify;
+  font-size: 2em;
+  color: black;
+  margin: auto !important;
+  opacity:0;
+}
+
+.all_text{
+  opacity:0;
+}
+
+.text span{
+  color: #9d0208
+}
+
+.ticket {
+  padding-left:0px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0;
+}
+
+.ticket a{
+  font-family: 'Special Elite', cursive;
+  font-size: 2em;
+  color:black;
+  text-align: left;
+  margin: auto;
+  padding:0;
+  line-height: 100px;
+}
+
+.ticket a:hover{
+  color: #9d0208;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.bottom_banner {
+  background-color: #5e6472;
+  opacity:0;
+}
+
+#formtext {
+  text-align: center;
+  font-size: 1.7em;
+  font-family: 'Special Elite', cursive;
+  margin-top: 20px;
+  color: white;
+}
+
+.epk{
+  height:100px;
+  width: 100%;
+  text-align: center !important;
+  margin: auto !important;
+  background-color: #6a040f !important;
+}
+
+.epk_img {
+  padding-right:0px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  box-shadow: 10px 10px 10px 0px #ccc;
+  opacity: 0;
+}
+
+.main_epk {
+  margin-bottom: 20px;
+}
+
+.video {
+    position: absolute;
+    padding-bottom: 56.25%; /* 16:9 */
+    margin: 30px;
+    box-shadow: 10px 10px 10px 0px #ccc;
+    opacity: 0;
+}
+
+.video iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cover1 {
+  position: relative;
+  object-fit: contain;
+  box-shadow: 10px 10px 10px 0px #ccc;
+}
+
+.cover2{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  box-shadow: 10px 10px 10px 0px #ccc;
+}
+
+.cover3{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  box-shadow: 10px 10px 10px 0px #ccc;
+}
+
+.cover4{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  box-shadow: 10px 10px 10px 0px #ccc;
+}
+
+.cover5{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  box-shadow: 10px 10px 10px 0px #ccc;
+}
+
+.cover6{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  box-shadow: 10px 10px 10px 0px #ccc;
+}
+
+@keyframes navImgFadeIn{
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes navImgFadeOut{
+  from {
+    opacity: 1;
+  }
+  to{
+    opacity: 0;
+  }
+}
+
+.cover {
+  width:100%;
+}
+
+.pictures {
+  padding: 0 !important;
+}
+
+.burger div{
+  width: 35px;
+  height: 3px;
+  background-color: black;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+.burger{
+  display: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1200px){
+  .logo {
+    width: 400px !important;
+  }
+
+  .nav-links li {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 992px){
+
+  .nav-links {
+    position: absolute;
+    top: 0px;
+    height: 200px;
+    width:100%;
+    z-index: 0;
+}
+
+  .links{
+    width:50%;
+    background: white;
+    top: 200px;
+    opacity:0;
+  }
+
+  .links2{
+    width:50%;
+    background: white;
+    top: 200px;
+    opacity:0;
+  }
+
+  .nav-links li {
+    opacity:0;
+    font-size: 0.5em;
+    margin: auto;
+  }
+
+  .burger {
+    display: block;
+    position:absolute;
+    top:50px;
+    right:10%;
+  }
+
+  .logo {
+    width: 250px !important;
+    text-align: left !important;
+    margin: auto;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    transform: translate(0%, 0%);
+    z-index: -2;
+  }
+
+  nav {
+    height: 200px;
+  }
+
+  .socials {
+    top: 140px;
+  }
+
+  .socials img{
+    height: 40px;
+  }
+
+  .top-nav li{
+    margin-top: 0px;
+  }
+}
+
+@keyframes navLinkFade{
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.nav-active{
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.toggle .line1{
+  transform: rotate(-45deg) translate(-5px,6px)
+}
+
+.toggle .line2{
+  opacity: 0;
+}
+
+.toggle .line3{
+  transform: rotate(45deg) translate(-5px,-6px)
+}
+
+.epk_button {
+  padding-left:0px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0;
+  border: none;
+}
+
+.epk_button a{
+  font-family: 'Special Elite', cursive;
+  font-size: 2em;
+  color:white;
+  text-align: left;
+  margin: auto;
+  padding:0;
+  line-height: 100px;
+}
+
+.epk_button a:hover{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.top-nav li{
+  margin-top: 50px;
+}

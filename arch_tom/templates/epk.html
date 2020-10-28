@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% load static %}
+{% block body_block %}
+<div class="container">
+
+<p class='text'><strong>EPK</strong></p>
+
+  <div class="row main_epk">
+    <div class="col">
+      <p class='epk_button'><a href="{% static "epk/NEW VENUE POSTER.jpg" %}" download class="btn btn-secondary epk">Poster</a></p>
+      <p class='epk_button'><a href="{% static "epk/fROOTS Laguna Review.pdf" %}" download class="btn btn-secondary epk">Laguna Review</a></p>
+      <p class='epk_button'><a href="{% static "epk/epk/Tom Moore & Archie Moss - TECH SPEC.pdf" %}" download class="btn btn-secondary epk">Tech Spec</a></p>
+    </div>
+    <div class="col">
+      <img class='epk_img' src="{% static "epk/picture.jpg" %}" width=100% alt="">
+    </div>
+  </div>
+
+<script src="{% static "js/js_epk.js" %}"></script>
+
+{% endblock %}
